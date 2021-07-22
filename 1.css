@@ -29,7 +29,8 @@ body{background-color: #f3f1ff;
                   color: white;
                   font-weight: bolder; 
                   cursor: no-drop;
-                  font-size: 19px;}   
+                  font-size: 19px;} 
+     .login:hover input{background-color: brown;border: 2px solid wheat;}                 
                   
     .headline{font-family: 'Lato', sans-serif;
                display: flex;
@@ -38,6 +39,12 @@ body{background-color: #f3f1ff;
                padding-right: 100px;}  
     .headline-title h1{color: aliceblue;
                        font-size: 56px;}  
+
+    button{background-color:brown;
+           padding: 9px 14px;
+           color: rgb(255, 255, 255);
+           font-size: 17px;} 
+    button:hover{background-color: rgb(37, 12, 12);border: 2px solid wheat;}                         
                        
     .headline-img img{width: 400px;
                    height: 400px;
@@ -52,26 +59,32 @@ body{background-color: #f3f1ff;
     .headline-img:hover img{  transition: transform 1s ease-in-out;
         transform: rotate(60deg);}     
     
-    .headline-img:hover .boll{transform: translate(-295px,-40px);
-                               transition: transform .8s ease-out .3s; }    
+    .headline-img:hover .boll{transform: translate(-315px,-40px);
+                               transition: transform 1s ease-out .3s; }    
                                
     .headline-img:hover .four{display: inline;} 
  /* animation/transform */
 
 
-    .boll-ani{width: 50px;
-              height: 50px;
+    .boll-ani{width: 55px;
+              height: 55px;
               border-radius: 30px;
-              border: 2px dotted maroon;
-              background-color: mediumspringgreen;
+              border: 6px double rgb(14, 199, 23);
+              background-color: rgb(172, 184, 174);
               animation-name: boll-animation;
               animation-timing-function: linear;
-              animation-duration: 2s;
-              animation-iteration-count: infinite;}
+              animation-duration: 3s;
+              animation-iteration-count: infinite;
+              position: relative;
+              box-sizing: border-box; }
 
-     @keyframes boll-animation{
-              10%{transform: translate(110px,-10px);position: relative; buttom:300px;}
-     }         
+     @keyframes boll-animation {
+              0%{bottom: 0;left: 0;}
+              1%{right: 450px; background-color: rgb(113, 113, 163);border: rgb(40, 54, 47) 4px double;}
+              10%{right: 450px; background-color: midnightblue;border: mintcream 4px double;}
+              40%{ left: 500px;background-color: royalblue;}
+              80%{right:550px;bottom: 0;left: 0;background-color: olive;;border: rgb(156, 228, 75) 5px dotted;transform:scale(1.2);}
+              100%{transform: scale(1);}    } 
     
     .boll{width: 40px;
           height: 40px;
@@ -85,7 +98,7 @@ body{background-color: #f3f1ff;
     .four{position: relative;
           bottom: 590px;
           right: 90px;
-          font-size: 30px;
+          font-size: 20px;
           color: #77fb0a;
           display: none;}
           
