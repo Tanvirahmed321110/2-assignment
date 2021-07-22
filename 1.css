@@ -1,0 +1,25 @@
+
+body{background-color: #f3f1ff;
+     margin: 0;padding: 0;}
+
+ 
+     /*header start  */
+     article{display: flex;justify-content: space-between;width: 100%;
+        background-color:blue;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 150px;
+        box-sizing: border-box;}
+    
+     .nav-main a{color:whitesmoke;padding: 10px;
+                 font-size: 20px;
+                  text-decoration: none;
+                 }       
+           
+     .login{padding-right: 100px;}   
+     .login input{padding: 5px 16px;
+                  background-color: cadetblue;
+                  color: white;
+                  font-weight: bolder; 
+                  cursor: no-drop;
+                  font-size: 15px;}          
