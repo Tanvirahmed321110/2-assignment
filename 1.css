@@ -34,11 +34,27 @@ body{background-color: #f3f1ff;
                display: flex;
                justify-content: space-between;
                padding-left: 150px;
-               padding-right: 180px;}  
+               padding-right: 100px;}  
     .headline-title h1{color: aliceblue;
                        font-size: 56px;}  
                        
-    .headline-img img{width: 480px;
-                   height: 300px;
+    .headline-img img{width: 400px;
+                   height: 400px;
                    border-radius: 15px;
-                   border: 2px solid rgb(72, 253, 26);}                    
+                   border: 2px solid rgb(72, 253, 26);
+                   position: relative;
+                   left:150px;
+                   top: 50px;}  
+                   
+    .bolll{width: 40px;
+          height: 40px;
+          border-radius: 30px;
+          background-color: yellow;
+          position: relative;
+          left: 100px;
+          top: 110px;}               
+     
+    .border{border: 2px red solid;
+            border-radius: 40px;
+            width: 550px;
+            height: 450px; }               
