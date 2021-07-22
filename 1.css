@@ -120,13 +120,24 @@ body{background-color: #f3f1ff;
               grid-template-columns: repeat(3,1fr);
               width: 1100px;
               margin: 0 auto;
-              grid-gap: 30px;}  
+              grid-gap: 30px;
+              margin-bottom: 100px;}  
               
               
     .player{width: 290px;
             background-color: white;
-            box-shadow: 2px 2px 3px black;}    
+            box-shadow: 2px 2px 3px black;
+            text-align: justify;height:496px;}  
+        
+            
+    .name h2{text-align: center;}        
             
     .c-img{margin: 0 auto;
-           padding:10px;
-           padding-left: 46px;}        
+       
+           padding:13px 19px;
+           padding-left: 13px;}  
+           
+     .c-img img{width: 235px;
+                padding: 20px;
+                margin: 0 auto;
+                height: 220px;}      
