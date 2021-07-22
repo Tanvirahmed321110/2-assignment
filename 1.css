@@ -3,6 +3,7 @@ body{background-color: #f3f1ff;
      margin: 0;padding: 0;}
 
  
+
      /*header start  */
 
   nav{width: 100%;
@@ -44,16 +45,50 @@ body{background-color: #f3f1ff;
                    border: 2px solid rgb(72, 253, 26);
                    position: relative;
                    left:150px;
-                   top: 50px;}  
-                   
-    .bolll{width: 40px;
+                   top: 50px;
+                 }  
+
+    /* animasion/trnsform */
+    .headline-img:hover img{  transition: transform 1s ease-in-out;
+        transform: rotate(60deg);}     
+    
+    .headline-img:hover .boll{transform: translate(-295px,-40px);
+                               transition: transform .8s ease-out .3s; }    
+                               
+    .headline-img:hover .four{display: inline;} 
+ /* animation/transform */
+
+
+    .boll-ani{width: 50px;
+              height: 50px;
+              border-radius: 30px;
+              border: 2px dotted maroon;
+              background-color: mediumspringgreen;
+              animation-name: boll-animation;
+              animation-timing-function: linear;
+              animation-duration: 2s;
+              animation-iteration-count: infinite;}
+
+     @keyframes boll-animation{
+              10%{transform: translate(110px,-10px);position: relative; buttom:300px;}
+     }         
+    
+    .boll{width: 40px;
           height: 40px;
           border-radius: 30px;
-          background-color: yellow;
+          background-image: linear-gradient(black,navy,orange);
+          border: 2px rgb(143, 190, 12) solid;
           position: relative;
-          left: 100px;
-          top: 110px;}               
+          left: 160px;
+          bottom: 390px;}               
      
+    .four{position: relative;
+          bottom: 590px;
+          right: 90px;
+          font-size: 30px;
+          color: #77fb0a;
+          display: none;}
+          
     .border{border: 2px red solid;
             border-radius: 40px;
             width: 550px;
