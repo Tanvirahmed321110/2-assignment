@@ -61,8 +61,13 @@ body{background-color: #f3f1ff;
     
     .headline-img:hover .boll{transform: translate(-315px,-40px);
                                transition: transform .8s ease-out .3s; }    
+
+     .nav-main:hover{background-color: brown;padding: 10px;}  
+     .nav-main a:hover {background-color: black;}                         
                                
     .headline-img:hover .four{display: inline;} 
+
+    .player:hover{box-shadow: 3PX 3PX 4PX 17PX blue;}
  /* animation/transform */
 
 
@@ -170,7 +175,7 @@ body{background-color: #f3f1ff;
 
 
        .main-footer{padding: 0;margin: 0;height: 340px;
-                   background-color: rgb(71, 27, 27);}
+                   background-color: rgb(63, 26, 26);}
        .logo{display: flex;
               justify-content: center;
               align-items: center;
@@ -186,8 +191,9 @@ body{background-color: #f3f1ff;
                   box-sizing: border-box;
                   font-family:cursive;
                    font-size: 40px;
-                   color:blue;}    
+                   color:rgb(225, 225, 247);}    
                    
-       .social{text-align: center;}  
+       .social{text-align: center;} 
+       .social a:hover{background-color: black;color: #77fb0a;} 
        big{display: flex;justify-content: center;
               color: antiquewhite;}          
