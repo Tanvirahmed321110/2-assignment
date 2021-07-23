@@ -60,7 +60,7 @@ body{background-color: #f3f1ff;
         transform: rotate(60deg);}     
     
     .headline-img:hover .boll{transform: translate(-315px,-40px);
-                               transition: transform 1s ease-out .3s; }    
+                               transition: transform .8s ease-out .3s; }    
                                
     .headline-img:hover .four{display: inline;} 
  /* animation/transform */
@@ -127,9 +127,12 @@ body{background-color: #f3f1ff;
     .player{width: 290px;
             background-color: white;
             box-shadow: 2px 2px 3px black;
-            text-align: justify;height:496px;}  
+            text-align: justify;height:466px;}  
         
-            
+     .live a{background-color:brown;
+      padding: 9px 14px;
+      color: rgb(255, 255, 255);
+      font-size: 17px;}       
     .name h2{text-align: center;}        
             
     .c-img{margin: 0 auto;
@@ -138,6 +141,53 @@ body{background-color: #f3f1ff;
            padding-left: 13px;}  
            
      .c-img img{width: 235px;
-                padding: 20px;
+                padding-left: 20px;
                 margin: 0 auto;
                 height: 220px;}      
+
+                /*section-2 start  */
+       .section-2{padding-right: 0px;width: 100%;
+                  margin-bottom: 100px;}
+       .high{display: grid;
+             width: 100%;
+             grid-template-columns: repeat(2,1fr);
+             grid-column-gap: 100px;
+             padding-left: 100px;
+             box-sizing: border-box;
+             } 
+          
+       .head-2 h1{font-family:monospace;
+               font-size: 40px;
+               }     
+               
+       .h-img img{width: 450px;
+                  height: 350px;
+                  border-radius: 20px;
+                  }        
+
+
+                  /* footer start */
+
+
+       .main-footer{padding: 0;margin: 0;height: 340px;
+                   background-color: rgb(71, 27, 27);}
+       .logo{display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 10px;}
+
+
+      .f-img img{width: 220px;
+                 height: 100px;
+                border-radius: 30px;
+                box-sizing: border-box;}            
+            
+       .f-cricket{padding-left: 50px;
+                  box-sizing: border-box;
+                  font-family:cursive;
+                   font-size: 40px;
+                   color:blue;}    
+                   
+       .social{text-align: center;}  
+       big{display: flex;justify-content: center;
+              color: antiquewhite;}          
