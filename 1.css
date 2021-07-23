@@ -1,7 +1,7 @@
 
 body{background-color: #f3f1ff;
      margin: 0;padding: 0;}
-
+       
  
 
      /*header start  */
@@ -197,3 +197,43 @@ body{background-color: #f3f1ff;
        .social a:hover{background-color: black;color: #77fb0a;} 
        big{display: flex;justify-content: center;
               color: antiquewhite;}          
+
+      /* mobile */
+
+   @media screen and (max-width:688px) 
+   {
+      .article-1{display: flex;justify-content: center;}
+     
+      
+         
+      .nav-main a{font-size: 14px;width: 100px;
+                  position: relative;right: 100px;}
+           
+      .headline{display:flex
+                }  
+     .headline-title h1{font-size: 20px;
+                        position: relative;right: 140px;}
+
+       .live button {position: relative;right: 140px;font-size: 12px;}  
+      .border{height: 300px;width: 260px; position: relative;right: 100px;}
+       .border img{ display: flex; width: 200px;height: 200px;
+                  position: relative;
+                   left: 60px;}
+
+       .boll{position: relative
+             ;left:-50px;bottom: 310px;}     
+             
+    .player{  margin-left: 130px;}
+     .section-1{display: grid;
+      width: 100%;
+    
+                margin: 0 auto;
+               grid-template-columns: repeat(1,1fr);}
+
+          .section-2{display: flex;margin-top:120px;}    
+          .head-2{position: relative;right: 80px;}
+          .head-2 h1{font-size: 17px;} 
+          .h-img img{width: 250px;height: 350px;position: relative;right: 120px;}
+
+   }   
+            
